@@ -4,9 +4,9 @@ spec:
   - envs:
     - key: apiKey
       scope: RUN_AND_BUILD_TIME
-    github:
+    git:
       branch: main
-      repo: do-community/do-function-openai
+      repo_clone_url: https://github.com/do-community/do-function-openai.git
     name: do-function-openai
     routes:
     - path: /
