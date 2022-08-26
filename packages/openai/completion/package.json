@@ -1,0 +1,10 @@
+{
+  "name": "do-function-openai",
+  "version": "1.0.0",
+  "description": "DigitalOcean Function for OpenAI",
+  "main": "completion.js",
+  "dependencies": {
+    "openai": "^3.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,13 @@
+targetNamespace: ''
+packages:
+  - name: openai
+    actions:
+      - name: completion
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        environment:
+          apiKey: "${apiKey}"
+        limits:
+          timeout: 30000
