@@ -65,6 +65,10 @@ Why do programmers always have to write code? Because without code, there would 
 
 You can deploy this function either via DigitalOcean's doctl CLI or directly on the DigitalOcean App Platform.
 
+### 1-Click Quick Deploy to DigitalOcean App Platform
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/do-function-openai/tree/main)
+
 ### Deploy via doctl
 
 - *Optional* Fork the repo, so you can make changes and take ownership of the code
