@@ -8,7 +8,6 @@ const openai = new OpenAIApi(configuration);
 
 
 async function main(args) {
-    console.log(args);
     if (args.__ow_method !== 'post'){
         return { "body": "Please send a POST Request"};
     }
@@ -20,7 +19,6 @@ async function main(args) {
             temperature: args.temperature || 0.9,
             top_p: args.top_p || 1
           });
-          console.log(completion.data.choices[0].text);
         
         return {"body": completion.data.choices[0].text}
     } else {
