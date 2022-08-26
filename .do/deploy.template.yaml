@@ -6,7 +6,6 @@ spec:
       scope: RUN_AND_BUILD_TIME
     github:
       branch: main
-      deploy_on_push: true
       repo: do-community/do-function-openai
     name: do-function-openai
     routes:
