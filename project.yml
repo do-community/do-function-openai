@@ -1,10 +1,7 @@
-targetNamespace: ''
 packages:
   - name: openai
     actions:
       - name: completion
-        binary: false
-        main: ''
         runtime: 'nodejs:default'
         web: true
         environment:
